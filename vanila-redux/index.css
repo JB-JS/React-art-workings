@@ -1,0 +1,17 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  box-sizing: border-box;
+  background: rgb(208, 208, 208);
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.toggle.active {
+  background: rgb(129, 107, 255);
+}
